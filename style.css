@@ -1,41 +1,52 @@
 /* CSS for the Odin Landing Page */
 
 body {
-display: flex;
-margin: 0;
-font-family: sans-serif;
-flex-direction: column;
-min-height: 100vh;
+    display: flex;
+    margin: 0;
+    font-family: sans-serif;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .upper {
-background-color: #1F2937;
-display: flex;
-flex-direction: column;
-align-items: center;
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
 }
 
 .header {
-display: flex;
-height: 50px;
-width: 1000px;
-justify-content: space-between;
-align-items: center;
+    display: flex;
+    height: 50px;
+    width: 1000px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo {
-font-size: 24px;
-font-weight: bold;
-color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
 }
 
 .menu {
-display: flex;
-font-size: 18px;
+    display: flex;
+    font-size: 18px;
 }
 
 .welcome {
-display: flex;
+    display: flex;
+    width: 1000px;
+    gap: 85px;
+    margin-bottom: 100px;
+    flex: 1;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
 
 ul {
@@ -45,7 +56,75 @@ ul {
     gap: 30px;
 }
 
-a{
+.welcomeh {
     color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+    
+}
+
+.welcometxt {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.welcomebtn {
+    border-radius: 8px;
+    background: #3882F6;
+    border: 1px solid #3882F6;
+    font-weight: bold;  
+    height: 35px;
+    width: 125px;
+}
+
+a{
+    color: #E5E7EB;
     text-decoration: none;
+    font-size: 18px;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info {
+    display: flex;
+    width: 1000px;
+    margin-bottom: 100px;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+}
+
+.infoh {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin: 50px;
+}
+
+.infocards {
+    display: flex;
+    gap: 65px;
+}
+
+.card {
+display: flex;
+flex-direction: column;
+text-align: center;
+gap: 6px;
+width: 150px;
+}
+
+.cardimg {
+    border: 3px solid #3882F6;
+    border-radius: 16px;
+    width: 150px;
+    height: 150px;
+}
+
+.cardtext {
+    color: #1f2937c0
 }
