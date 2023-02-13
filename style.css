@@ -3,7 +3,7 @@
 body {
     display: flex;
     margin: 0;
-    font-family: sans-serif;
+    font-family: "Roboto", sans-serif;
     flex-direction: column;
     min-height: 100vh;
 }
@@ -111,11 +111,11 @@ a{
 }
 
 .card {
-display: flex;
-flex-direction: column;
-text-align: center;
-gap: 6px;
-width: 150px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 6px;
+    width: 150px;
 }
 
 .cardimg {
@@ -127,4 +127,84 @@ width: 150px;
 
 .cardtext {
     color: #1f2937c0
+}
+
+.quote {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    align-items: center;
+
+}
+
+.quotecontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 780px;
+}
+
+.quotetext {
+    width: 800px;
+    font-size: 36px;
+    color: #1f2937b6;
+    font-style: italic;
+    font-weight: 100;
+    align-self: flex-start;
+}
+
+.quotebyline {
+    font-weight: 900;
+    align-self: flex-end;
+    font-size: 20px;
+}
+
+.calltoaction {
+    display: flex;
+    align-self: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 50px 100px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    width: 800px;
+    justify-content: space-between;
+}
+
+.ctaleft {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.ctaheader {
+    color: #E5E7EB;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.ctatext {
+    color: #E5E7EB;
+}
+
+.ctabtn {
+    border-radius: 8px;
+    background: #3882F6;
+    border: 2px solid #E5E7EB;
+    font-weight: bold;  
+    height: 35px;
+    width: 125px;
+    align-self: flex-end;
+}
+
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    height: 100px;
+    color: #F9FAF8;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
 }
